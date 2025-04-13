@@ -19,6 +19,17 @@ To authenticate and generate QR codes, you need to provide your username and pas
 
 3. The server will authenticate the provided credentials and display the QR codes for login.
 
+## Using the Login Page
+
+The webserver includes a simple login page to make it easier to authenticate without manually appending query parameters to the URL.
+
+1. Start the webserver using the instructions above.
+
+2. Open your browser and navigate to `http://localhost:3000`.
+
+3. Enter your username and password in the provided form and click the **Login** button.
+
+4. If the credentials are valid, the server will authenticate and display the QR codes for login.
 
 ## Prerequisites
 - Docker installed on your system.
